@@ -2,8 +2,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="shadow-md">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-8 py-4">
+    <header className="shadow-md">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-8">
         <div className="flex items-center">
           <img
             className="h-15"
@@ -15,7 +15,7 @@ const Header = () => {
       
         </div>
 
-        <div className="flex items-center rounded-full border border-gray-300 py-2 pr-4 pl-6 shadow-md">
+        <div className="hidden lg:flex items-center rounded-full border border-gray-300 py-2 pr-4 pl-6 shadow-md">
           <p className="border-r border-r-gray-300 pr-4">Encontre seu novo melhor amigo para adoção</p>
         
 
@@ -64,10 +64,10 @@ const Header = () => {
             />
           </svg>
 
-          <p>Fraguinha</p>
+          <p className="max-w-20  truncate sm:max-w-128">Fraguinha</p>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
