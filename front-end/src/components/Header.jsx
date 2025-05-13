@@ -1,25 +1,28 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header className="shadow-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-8">
-        <div className="flex items-center">
+        <Link to="/" className="flex items-center">
           <img
-            className="h-15"
-            src="https://www.diplomatafm.com.br/wp-content/uploads/2021/09/logo-acapra.png"
-            alt="Logo Acapra"
+            className="h-10 w-12 rounded-lg"
+            src="../src/img/logoroxa.png"
+            alt="Logo da Acapra"
           />
+          <p className="text-primary-400 text-2xl font-bold">ACAPRA</p>
+        </Link>
 
-          
-      
-        </div>
+        <Link
+          to="/"
+          className="hidden items-center rounded-full border border-gray-300 py-2 pr-4 pl-6 shadow-md lg:flex"
+        >
+          <p className="border-r border-r-gray-300 pr-4">Localização</p>
+          <p className="border-r border-r-gray-300 px-4">Espécie</p>
+          <p className="px-4">Animais Perdidos</p>
 
-        <div className="hidden lg:flex items-center rounded-full border border-gray-300 py-2 pr-4 pl-6 shadow-md">
-          <p className="border-r border-r-gray-300 pr-4">Encontre seu novo melhor amigo para adoção</p>
-        
-
-          <div className="bg-primary-400 rounded-full p-1 text-white">
+          <div className="bg-primary-400 rounded-full p-2 text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -35,9 +38,12 @@ const Header = () => {
               />
             </svg>
           </div>
-        </div>
+        </Link>
 
-        <div className="flex items-center gap-2 rounded-full border border-gray-300 py-2 pr-4 pl-6 shadow-md">
+        <Link
+          to="/login"
+          className="flex items-center gap-2 rounded-full border border-gray-300 py-2 pr-4 pl-6 shadow-md"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -64,8 +70,8 @@ const Header = () => {
             />
           </svg>
 
-          <p className="max-w-20  truncate sm:max-w-128">Fraguinha</p>
-        </div>
+          <p className="max-w-20 truncate sm:max-w-32">Fraguinha</p>
+        </Link>
       </div>
     </header>
   );
