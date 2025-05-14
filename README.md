@@ -105,7 +105,8 @@ n/a
 
 ### Status de Build
 
-[![Build Status](https://img.shields.io/travis/com/seu-usuario/adocao-animais-acapra?label=build)](https://travis-ci.com/github/seu-usuario/adocao-animais-acapra)
+[![Build Status](https://img.shields.io/github/workflow/status/GustavoF442/AcapraDEV/Node.js%20CI?label=build)](https://github.com/GustavoF442/AcapraDEV/actions)
+
 
 ---
 
