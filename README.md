@@ -1,6 +1,6 @@
 # Projeto Adoção de Animais - ACAPRA
 
-![Logo ACAPRA](link-da-imagem-da-logo)  
+![Logo ACAPRA](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTfmfg0ua5Fn6wbh20Wcp_JA7WsJaGBCKnEQ&s)  
 **Projeto em desenvolvimento** 🚧
 
 Este projeto é uma plataforma online para a **adoção responsável de animais**, desenvolvida em parceria com a ONG **ACAPRA**. O objetivo principal é conectar adotantes com animais disponíveis para adoção, proporcionando uma maneira fácil e segura de promover a adoção.
