@@ -4,7 +4,7 @@ const Item = () => {
   return (
     <a href="/" className="flex flex-col gap-2">
       <img
-        src="https://animalcareipiranga.com.br/wp-content/uploads/2022/09/06Jul_LabyesNotaWeb-1024x684-1-1.png"
+        src="src/img/Dog2.jpeg"
         alt="Animal"
         className="aspect-square rounded-4xl object-cover"
       />
@@ -19,7 +19,7 @@ const Item = () => {
       </div>
 
       <p>
-        <span className="font-semibold"> ADOTE JÁ</span> clique aqui
+        <span className="font-semibold"> ADOTE JÁ</span> pertinho de você
       </p>
     </a>
   );
